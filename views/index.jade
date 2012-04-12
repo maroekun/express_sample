@@ -1,0 +1,15 @@
+h1= title
+p Welcome to #{title}
+  a( href='/user/regist' ) CreateUser
+
+form(name='bar', method='post').foo
+    p
+      label
+        | Username:
+        input( name='user[name]' )
+    p
+      label
+        | Password:
+        input( name='user[password]' )
+    p
+      input( type='submit', value='login' ).loginSubmit
